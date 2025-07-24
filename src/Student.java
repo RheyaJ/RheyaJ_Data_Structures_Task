@@ -28,7 +28,7 @@ public class Student {
                         }
                         ob.addGrade(student,l);
                         long e=System.nanoTime();
-                        System.out.println("Time complexity: O(1), Time taken for adding grade of student:"+(e-s));
+                        System.out.println("Time complexity: O(n), Time taken for adding grade of student:"+(e-s));
                     }
                     case 3 -> {
                         System.out.println("enter name of student");

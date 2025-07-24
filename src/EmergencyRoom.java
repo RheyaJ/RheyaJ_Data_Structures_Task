@@ -73,7 +73,7 @@ public class EmergencyRoom {
         while (!copy.isEmpty())
             System.out.println(copy.poll());
         long e=System.nanoTime();
-        System.out.println("Time complexity: O(n), Time taken for displaying all the patients:"+(e-s));
+        System.out.println("Time complexity: O(n log(n)), Time taken for displaying all the patients:"+(e-s));
     }
     private void get() {
         if(pq.isEmpty()){

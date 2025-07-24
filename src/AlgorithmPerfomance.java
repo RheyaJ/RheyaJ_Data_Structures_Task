@@ -33,7 +33,7 @@ public class AlgorithmPerfomance {
         long s=System.nanoTime();
         Collections.sort(l);
         long e=System.nanoTime();
-        System.out.println("Time complexity: O(log n), Time taken for sorting:"+(e-s));
+        System.out.println("Time complexity: O(n log(n), Time taken for sorting:"+(e-s));
     }
     private void linearTime(int n) {
         long s=System.nanoTime();
@@ -56,7 +56,7 @@ public class AlgorithmPerfomance {
         int index = Collections.binarySearch(l,ele);
         long e=System.nanoTime();
         System.out.println("Index of the element being searched:"+index);
-        System.out.println("Time complexity: O(log n), Time taken for searching for an element:"+(e-s));
+        System.out.println("Time complexity: O(n log(n)), Time taken for searching for an element:"+(e-s));
     }
     private void constantTime(int n) {
         long s=System.nanoTime();
